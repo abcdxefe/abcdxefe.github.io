@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // About section
   document.getElementById('about-heading').innerHTML = 'EFETOMEH';
   document.getElementById('about-text').innerHTML = 'Scientist | Tech Enthusiast | Coffee Snob';
-  document.getElementById('profile-pic').src = 'profile-pic.jpg';
+  // document.getElementById('profile-pic').src = 'profile-pic.jpg';
   document.getElementById('about-description').innerHTML = 'I am passionate about the intersection of artificial intelligence and neuroscience.';
 
   // Projects section
