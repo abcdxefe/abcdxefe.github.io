@@ -1,21 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Hey!</title>
-    <style>
-        body {
-            background-color: #000; /* black background */
-            text-align: center; /* center the text horizontally */
-            display: flex; /* use flexbox to center the text vertically */
-            justify-content: center; /* center the text horizontally */
-            align-items: center; /* center the text vertically */
-            height: 100vh; /* make the body take up the full height of the viewport */
-            margin: 0; /* remove default margin */
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EFE</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 style="color: #fff;">hey</h1> <!-- white text color -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <div class="container">
+                <h1>EFETOMEH</h1>
+                <p>Scientist | Tech Enthusiast | Coffee Snob</p>
+                <img src="profile-pic.jpg" alt="Alex Chen" class="profile-pic">
+                <p>I am passionate about the intersection of artificial intelligence and neuroscience.</p>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <img src="project1-thumb.jpg" alt="Project 1">
+                        <h3>Project 1: Verwiki</h3>
+                        <p>A web application featuring an innovative two-tiered conceptual organization consisting of an online concept tree and a wiki article database to facilitate deeper understanding of course material.</p>
+                    </li>
+                    <li>
+                        <img src="project2-thumb.jpg" alt="Project 2">
+                        <h3>Project 2: Breeze Parking Technologies</h3>
+                        <p>Breeze Parking – Web app allowing a seamless parking experience for drivers, and easy management for parking lot managers.</p>
+                    </li>
+                    <!-- Add more projects here -->
+                </ul>
+            </div>
+        </section>
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>Material UI</li>
+                    <li>HTML/CSS</li>
+                    <!-- Add more skills here -->
+                </ul>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Feel free to reach out to me at <a href="mailto:xyz@email.com">alexchen@email.com</a>.</p>
+                <ul>
+                    <li><a href="https://twitter.com/eftmh" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="https://github.com/eftmh" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://linkedin.com/in/eftmh" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 EFETOMEH</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
- 
