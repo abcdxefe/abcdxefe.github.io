@@ -1,11 +1,14 @@
+/* styles.css */
+
 body {
+    background-color: #212121; /* Dark gray background */
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #0a192f; /* Navy blue */
+    background-color: #333; /* Darker gray header */
     padding: 20px;
     text-align: center;
 }
@@ -23,7 +26,7 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #fff; /* White text color */
     text-decoration: none;
 }
 
@@ -35,14 +38,14 @@ main {
 }
 
 section {
-    background-color: #f7f7f7; /* Light gray */
+    background-color: #444; /* Darker gray section background */
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2, h3 {
-    color: #0a192f; /* Navy blue */
+    color: #fff; /* White text color */
 }
 
 .profile-pic {
@@ -70,8 +73,8 @@ li {
 }
 
 footer {
-    background-color: #0a192f; /* Navy blue */
+    background-color: #333; /* Darker gray footer */
     padding: 10px;
     text-align: center;
-    color: #fff;
+    color: #fff; /* White text color */
 }
